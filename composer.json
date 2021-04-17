@@ -1,0 +1,29 @@
+{ 
+    "name": "guilhermesc9/tcc",
+    "description": "Trabalho de Conclusão de Curso - Desenvolvimento de Sistemas 2021 - Sistema de Delivery em E-commerce.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme S. Carvalho",
+            "email": "guilhermecarvalho9205@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "^1.1",
+        "vlucas/phpdotenv": "^5.3",
+        "firebase/php-jwt": "^5.2"
+    }
+}
